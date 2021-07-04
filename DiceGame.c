@@ -6,7 +6,13 @@
 
 int main(){
   int s[MAX], total = 0;
+  char name[30];
 
+  printf("What is your name?\n");
+  printf("> ");
+  scanf("%s", name);
+  printf("Hello, %s!\n", name);
+  
   printf("Rolling the dice...\n");
 
   srand((unsigned int)time(NULL));
